@@ -1,0 +1,3 @@
+import { sh } from '../components/ui.js';
+
+export const SusP=()=>`<div class=w><div class=sec>${sh("Sustainability","Engineered to last, repair and reuse")}<div class="g g2">${[["Modular reuse","Reconfigure instead of replace."],["Repairable design","Bolted joints and standard parts."],["Material efficiency","Nested cutting and offcut recycling."],["Measured impact","FactoryOS tracks energy and waste."]].map(x=>`<div class="card rv"><h3>${x[0]}</h3><p>${x[1]}</p></div>`).join("")}</div><p style="margin-top:20px"><a class="btn ac" href="#s-sustainability">View the sustainability audit</a></p></div></div>`;
